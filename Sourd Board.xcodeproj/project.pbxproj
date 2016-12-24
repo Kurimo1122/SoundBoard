@@ -13,6 +13,7 @@
 		78A6C6CE1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6CC1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld */; };
 		78A6C6D01E0EB0D900AA0E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */; };
 		78A6C6D31E0EB0D900AA0E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A6C6D11E0EB0D900AA0E7E /* LaunchScreen.storyboard */; };
+		78A6C6DB1E0EB51D00AA0E7E /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6DA1E0EB51D00AA0E7E /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A6C6D21E0EB0D900AA0E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A6C6D41E0EB0D900AA0E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A6C6DA1E0EB51D00AA0E7E /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				78A6C6C51E0EB0D900AA0E7E /* AppDelegate.swift */,
 				78A6C6C71E0EB0D900AA0E7E /* ViewController.swift */,
+				78A6C6DA1E0EB51D00AA0E7E /* SoundViewController.swift */,
 				78A6C6C91E0EB0D900AA0E7E /* Main.storyboard */,
 				78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */,
 				78A6C6D11E0EB0D900AA0E7E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A6C6DB1E0EB51D00AA0E7E /* SoundViewController.swift in Sources */,
 				78A6C6CE1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld in Sources */,
 				78A6C6C81E0EB0D900AA0E7E /* ViewController.swift in Sources */,
 				78A6C6C61E0EB0D900AA0E7E /* AppDelegate.swift in Sources */,
