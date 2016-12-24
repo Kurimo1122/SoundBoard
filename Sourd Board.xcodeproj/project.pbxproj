@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A6C6C61E0EB0D900AA0E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6C51E0EB0D900AA0E7E /* AppDelegate.swift */; };
+		78A6C6C81E0EB0D900AA0E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6C71E0EB0D900AA0E7E /* ViewController.swift */; };
+		78A6C6CB1E0EB0D900AA0E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A6C6C91E0EB0D900AA0E7E /* Main.storyboard */; };
+		78A6C6CE1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6CC1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld */; };
+		78A6C6D01E0EB0D900AA0E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */; };
+		78A6C6D31E0EB0D900AA0E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A6C6D11E0EB0D900AA0E7E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78A6C6C21E0EB0D900AA0E7E /* Sourd Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sourd Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6C6C51E0EB0D900AA0E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78A6C6C71E0EB0D900AA0E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78A6C6CA1E0EB0D900AA0E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78A6C6CD1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sourd_Board.xcdatamodel; sourceTree = "<group>"; };
+		78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A6C6D21E0EB0D900AA0E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A6C6D41E0EB0D900AA0E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A6C6BF1E0EB0D900AA0E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A6C6B91E0EB0D900AA0E7E = {
+			isa = PBXGroup;
+			children = (
+				78A6C6C41E0EB0D900AA0E7E /* Sourd Board */,
+				78A6C6C31E0EB0D900AA0E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A6C6C31E0EB0D900AA0E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A6C6C21E0EB0D900AA0E7E /* Sourd Board.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A6C6C41E0EB0D900AA0E7E /* Sourd Board */ = {
+			isa = PBXGroup;
+			children = (
+				78A6C6C51E0EB0D900AA0E7E /* AppDelegate.swift */,
+				78A6C6C71E0EB0D900AA0E7E /* ViewController.swift */,
+				78A6C6C91E0EB0D900AA0E7E /* Main.storyboard */,
+				78A6C6CF1E0EB0D900AA0E7E /* Assets.xcassets */,
+				78A6C6D11E0EB0D900AA0E7E /* LaunchScreen.storyboard */,
+				78A6C6D41E0EB0D900AA0E7E /* Info.plist */,
+				78A6C6CC1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld */,
+			);
+			path = "Sourd Board";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A6C6C11E0EB0D900AA0E7E /* Sourd Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A6C6D71E0EB0D900AA0E7E /* Build configuration list for PBXNativeTarget "Sourd Board" */;
+			buildPhases = (
+				78A6C6BE1E0EB0D900AA0E7E /* Sources */,
+				78A6C6BF1E0EB0D900AA0E7E /* Frameworks */,
+				78A6C6C01E0EB0D900AA0E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sourd Board";
+			productName = "Sourd Board";
+			productReference = 78A6C6C21E0EB0D900AA0E7E /* Sourd Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A6C6BA1E0EB0D900AA0E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Toshimitsu Kugimoto";
+				TargetAttributes = {
+					78A6C6C11E0EB0D900AA0E7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2PUA57V75P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 78A6C6BD1E0EB0D900AA0E7E /* Build configuration list for PBXProject "Sourd Board" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A6C6B91E0EB0D900AA0E7E;
+			productRefGroup = 78A6C6C31E0EB0D900AA0E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A6C6C11E0EB0D900AA0E7E /* Sourd Board */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A6C6C01E0EB0D900AA0E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6C6D31E0EB0D900AA0E7E /* LaunchScreen.storyboard in Resources */,
+				78A6C6D01E0EB0D900AA0E7E /* Assets.xcassets in Resources */,
+				78A6C6CB1E0EB0D900AA0E7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A6C6BE1E0EB0D900AA0E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6C6CE1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld in Sources */,
+				78A6C6C81E0EB0D900AA0E7E /* ViewController.swift in Sources */,
+				78A6C6C61E0EB0D900AA0E7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78A6C6C91E0EB0D900AA0E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A6C6CA1E0EB0D900AA0E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78A6C6D11E0EB0D900AA0E7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A6C6D21E0EB0D900AA0E7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A6C6D51E0EB0D900AA0E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A6C6D61E0EB0D900AA0E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A6C6D81E0EB0D900AA0E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PUA57V75P;
+				INFOPLIST_FILE = "Sourd Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ToshiKugi.Sourd-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		78A6C6D91E0EB0D900AA0E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PUA57V75P;
+				INFOPLIST_FILE = "Sourd Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ToshiKugi.Sourd-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A6C6BD1E0EB0D900AA0E7E /* Build configuration list for PBXProject "Sourd Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A6C6D51E0EB0D900AA0E7E /* Debug */,
+				78A6C6D61E0EB0D900AA0E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A6C6D71E0EB0D900AA0E7E /* Build configuration list for PBXNativeTarget "Sourd Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A6C6D81E0EB0D900AA0E7E /* Debug */,
+				78A6C6D91E0EB0D900AA0E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78A6C6CC1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78A6C6CD1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodel */,
+			);
+			currentVersion = 78A6C6CD1E0EB0D900AA0E7E /* Sourd_Board.xcdatamodel */;
+			path = Sourd_Board.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78A6C6BA1E0EB0D900AA0E7E /* Project object */;
+}
